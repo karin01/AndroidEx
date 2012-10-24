@@ -2,13 +2,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-
-    <TextView
-        android:layout_width="wrap_content"
+    
+    <TextView 
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world"
-        tools:context=".MainActivity" />
+        android:text="안드로이드 수업"
+        android:textSize="20sp"
+        android:textColor="#00ff00"
+        />
+
+    <Button
+        android:id="@+id/menubtn01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="code_Test"
+        android:textColor="#ff0000"
+        android:onClick="mOnClick"
+        />
 
 </RelativeLayout>
